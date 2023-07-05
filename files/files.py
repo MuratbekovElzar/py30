@@ -164,15 +164,18 @@ import json
 # print(type(data_json))
 
 
-# json.dump(python_object, file)
-data = {
-    'email': 'testUser@gmail.com',
-    'password': '12345678'
-}
+# # json.dump(python_object, file)
+# data = {
+#     'email': 'testUser@gmail.com',
+#     'password': '12345678'
+# }
 
-with open('file.json', 'w+') as file:
-    json.dump(data, file)
-    file.seek(0)
-    print(type(file.read()))
+# with open('file.json', 'w+') as file:
+#     json.dump(data, file)
+#     file.seek(0)
+#     print(type(file.read()))
 
-# CSV JSON
+# # CSV JSON
+
+
+# print('1\n2\n3')
